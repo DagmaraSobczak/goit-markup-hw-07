@@ -108,7 +108,7 @@ width: 200px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-footer ul li:first-child {
+.footer-contact-list__item {
   color: #ffffff;
   padding-top: 20px;
   display: flex;
@@ -159,6 +159,21 @@ figcaption span {
 }
 .our-strengths__tittle{
  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-social__tittle{
+    font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.newsletter_tiitle{
+    font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -328,7 +343,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-list {
+.footer-contact-list {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -783,7 +798,7 @@ border: #2196f3;
   cursor: pointer;
 }
 
-.label-modal {
+.modal-form__label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -797,7 +812,7 @@ border: #2196f3;
   margin-bottom: 10px;
 }
 
-.input-modal {
+.modal-form__input {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -812,50 +827,39 @@ border: #2196f3;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon {
+.modal-form__icon {
   width: 18px;
   height: 18px;
   position: absolute;
   z-index: 2;
-  top: 104px;
-  left: 50px;
-  transition-property: fill;
+   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon2 {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  z-index: 2;
+.modal-form__icon1{
+ top: 104px;
+  left: 50px;
+}
+
+.modal-form__icon2 {
   top: 172px;
   left: 52px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon3 {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  z-index: 2;
+.modal-form__icon3 {
   top: 240px;
   left: 52px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
 
-.form-modal {
+.modal-form {
   display: flex;
   flex-direction: column;
   width: 448px;
   height: 342px;
 
 }
-.p-modal {
+.modal__tittle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -867,7 +871,7 @@ border: #2196f3;
   margin-top: 40px;
   margin-bottom: 12px;
 }
-textarea {
+.modal-form__comments {
   width: 448px;
   height: 120px;
   border-radius: 4px;
@@ -894,7 +898,7 @@ textarea {
   
 }
 
-.modal-icon5 {
+.checkbox__icon {
   width: 16px;
   height: 15px;
   fill: rgba(255, 255, 255, 1);
@@ -904,7 +908,7 @@ textarea {
   left: 0px;
 }
 
-.checkbox-text {
+.checkbox__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -922,14 +926,14 @@ textarea {
   
   }
 
-.checkbox input {
+.checkbox__input {
   position: relative;
   cursor: pointer;
   width: 0;
   height: 0;
   opacity: 0;
 }
-.checkbox .checkmark {
+.chceckbox__checkmark {
   position: absolute;
   width: 16px;
   height: 15px;
@@ -941,7 +945,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkmark::after {
+.chceckbox__checkmark::after {
   content: url(../image/check.svg);
   width: 16px;
   height: 15px;
@@ -952,15 +956,15 @@ textarea {
   background-color: rgba(33, 150, 243, 1);
 }
 
-.checkbox input:checked ~ .checkmark::after {
+.checkbox input:checked ~ .chceckbox__checkmark::after {
   opacity: 1;
 }
 
-.checkbox-text-span {
+.checkbox__text-span {
   color: rgba(33, 150, 243, 1);
   text-decoration: underline;
 }
-.button-input {
+.button--input {
    text-align: center;
    margin-top: 30px;
   line-height: 30px;
@@ -968,24 +972,24 @@ textarea {
 
 }
 
-textarea:hover,
-textarea:focus {
+.modal-form__comments:hover,
+.modal-form__comments:focus {
   border-color: rgba(33, 150, 243, 1);
 }
 
-.label-modal {
+.modal-form__label {
   transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.label-modal input:hover,
-.label-modal input:focus-within {
+.modal-form__label:hover,
+.modal-form__label:focus-within {
   border-color: rgba(33, 150, 243, 1);
 }
 
-.label-modal:hover svg {
+.modal-form__label:hover svg {
   fill: rgba(33, 150, 243, 1);
 }
-.label-modal:focus-within svg {
+.modal-form__label:focus-within svg {
   fill: rgba(33, 150, 243, 1);
 }

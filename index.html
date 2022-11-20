@@ -250,13 +250,13 @@
                   <div class="container">
         <a class="logo" href="./index.html"> <strong>Web</strong><span class="logo--footer">Studio</span></a>
         <div class="footer-position">
-                      <ul class="footer-list">
-              <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+                      <ul class="footer-contact-list">
+              <li class="footer-contact-list__item">m. Warszawa, Aleje Jerozolimskie 21</li>
               <li><a class="contact__link" href="mailto:info@example.com">info@example.com</a></li>
                 <li><a class="contact__link" href="tel:++48111111111">+48 111 111 111</a></li>
                        </ul>
             <div class="footer-social">
-              <h3>DOŁĄCZ DO NAS</h3>
+              <h3 class="footer-social__tittle">DOŁĄCZ DO NAS</h3>
               <div class=" footer-social__list">
                 <svg class="social-list__icon social-list__icon--footer">
                   <use href="./image/icons.svg#icon-Ellipse-6"></use>
@@ -273,7 +273,7 @@
               </div>
             </div>
              <div class="newsletter">
-                <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
+                <h3 class="newsletter__tittle">ZAPISZ SIĘ DO NEWSLETTERA</h3>
               <form name="sing-up-to-newsletter" class="newsletter-form">
                <input class="newsletter-form__input" name="email"  type="email" placeholder="E-mail">
               <button class="button--main-page newsletter-form--button" type="submit">Zapisz się
@@ -289,44 +289,44 @@
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button type="button" class="close-btn" data-modal-close></button>
-              <p class="p-modal">Zostaw swoje dane w formularzu poniżej</p>
-              <form name="order serwis" class="form-modal">
-                  <label class="label-modal">
+              <p class="modal__tittle">Zostaw swoje dane w formularzu poniżej</p>
+              <form name="order serwis" class="modal-form">
+                  <label class="modal-form__label">
                  Imie
-                  <svg class="modal-icon">
+                  <svg class="modal-form__icon modal-form__icon1">
                   <use href="./image/icons.svg#icon-person-black-18dp-1"></use>
                 </svg>
-                <input class="input-modal" type="text" name="name">
+                <input class="modal-form__input" type="text" name="name">
               </label>
-            <label class="label-modal">
+            <label class="modal-form__label">
                Telefon
-               <svg class="modal-icon2">
+               <svg class="modal-form__icon modal-form__icon2">
              <use href="./image/icons.svg#icon-phone-black-18dp-1"></use>
            </svg>
-            <input class="input-modal" type="tel" name="phone_number">
+            <input class="modal-form__input" type="tel" name="phone_number">
                 </label>
-                  <label class="label-modal">
+                  <label class="modal-form__label">
                     Email
-                    <svg class="modal-icon3">
+                    <svg class="modal-form__icon modal-form__icon3">
                       <use href="./image/icons.svg#icon-email-black-18dp-1"></use>
                     </svg>
-                    <input class="input-modal" type="email" name="email">
+                    <input class="modal-form__input" type="email" name="email">
                   </label>
-                    <label class="label-modal">
+                    <label class="modal-form__label">
                       Komentarz
-                         <textarea name="komentarz" placeholder="Wprowadź tekst"></textarea>
+                         <textarea class="modal-form__comments" name="komentarz" placeholder="Wprowadź tekst"></textarea>
                     </label>
                   </form>
                 <label class="checkbox">  
-                   <p class="checkbox-text">Oświadczam iż akceptuję <span class="checkbox-text-span">Regulamin</span> i <span class="checkbox-text-span">Politykę Prywatności</span></p>
-                    <input type="checkbox" >
-                  <svg class="modal-icon5">
+                   <p class="checkbox__text">Oświadczam iż akceptuję <span class="checkbox__text-span">Regulamin</span> i <span class="checkbox__text-span">Politykę Prywatności</span></p>
+                    <input class="checkbox__input" type="checkbox" >
+                  <svg class="checkbox__icon">
                       <use href="./image/icons.svg#icon-Vector-1"></use>
-                    </svg><span class="checkmark">                
+                    </svg><span class="chceckbox__checkmark">                
                   </span>
                 </label>
                   
-         <button type="submit" class=" button--main-page button-input" >Wyślij</button>
+         <button type="submit" class=" button--main-page button--input" >Wyślij</button>
                 </div>
           <script src="./js/modal.js"></script>
   </body>
