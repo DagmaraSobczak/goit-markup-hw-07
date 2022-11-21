@@ -17,14 +17,6 @@
 
 
 
-.footer-contact-list__item {
-  color: var(--white);
-  padding-top: 20px;
-  display: flex;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-}
 
 /*.address{
 color: #FFFFFF; 
@@ -156,21 +148,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.footer {
-  background:var(--footer);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: space-between;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.footer-contact-list {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  width: 246px;
-}
+
 
 
 
@@ -209,46 +187,10 @@ img {
 
 
 
-.our-client__item {
-  border: 1px solid var(--icon-border);
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  transition-property: border fill;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);;
-}
 
-.our-client__item:hover {
-  border: 1px solid var(--blue);
-  cursor: pointer;
-}
-.our-client__item:hover svg {
-  fill: var(--blue);
-  --color3: #2196f3;
-}
-.our-client__icon {
-  width: 106px;
-  height: 60px;
-  margin-right: 32px;
-  margin-left: 32px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  gap: 30px;
-  align-items: center;
-  fill: var(--contact-icon);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);;
-}
 
-.our-client {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
+
 
 
 
@@ -266,12 +208,7 @@ img {
   border-radius: 50%;
 }
 
-.footer-position {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  gap: 70px;
-}
+
 .box-hover:hover {
   box-shadow: var(--box-shadow); 
   cursor: pointer;
@@ -281,22 +218,7 @@ img {
 }
 
 
-.social-list__icon--footer {
-  margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: rgba(255, 255, 255, 1);
-  border-radius: 50%;
-  transition-property: fill background-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);;
-}
 
-.social-list__icon--footer:hover {
-  color: var(--blue);
-  fill: var(--white);
-  background-color: var(--blue);
-  cursor: pointer;
-}
 
 
 

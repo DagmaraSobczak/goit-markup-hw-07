@@ -1,0 +1,9 @@
+.footer {
+    background:var(--footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }

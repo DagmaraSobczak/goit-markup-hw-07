@@ -1,0 +1,15 @@
+.footer-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 246px;
+  }
+
+  .footer-contact-list__item {
+    color: var(--white);
+    padding-top: 20px;
+    display: flex;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+  }  
