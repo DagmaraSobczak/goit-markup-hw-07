@@ -16,15 +16,23 @@
     flex-direction: column;
     margin-bottom: 10px;
     border-color: rgba(33, 33, 33, 0.2);
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-        &:hover svg {
-        fill: var(--modal-blue);
+      &:hover svg{
+      fill: var(--modal-blue);
       }
-        &:focus-within svg {
-        fill:var(--modal-blue);
-      }   
-
-}
+      &:focus-within svg{
+      fill: var(--modal-blue);
+      }
+   
+      &:hover,
+      &:focus-within{
+      border-color: var(--modal-blue);
+      }
+  
+   }
   
   .modal-form__input {
     width: 448px;
@@ -40,10 +48,11 @@
     transition-duration: 250ms;
     transition-timing-function: var(--cubic-bezier);;
   
-    &:hover,
-    &:focus-within {
+  
+      &:hover,
+      &:focus-within{
       border-color: var(--modal-blue);
-    }
+      }
     
 }
   
@@ -90,12 +99,11 @@
     transition-timing-function: var(--cubic-bezier);;
     
         &:hover,
-        &:focus {
-        -color: var(--modal-blue);
+        &:focus{
+        border-color: var(--modal-blue);
         }
 }
   
-
 
 
 

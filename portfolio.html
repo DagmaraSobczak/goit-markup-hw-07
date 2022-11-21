@@ -18,30 +18,27 @@
     <section class="section">
       <div class="header">
         <a class="logo" href="./index.html"> <strong>Web</strong><span class="logo--header">Studio</span></a>
-        <nav>
-          <ul class="nav ul">
-            <li><a class="nav__menu " href="./index.html">Agencja</a></li>
-            <li><a class="nav__menu nav__menu--active" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="nav__menu" href="/#Kontakt">Kontakt</a></li>
-          </ul>
-        </nav>
+        <ul class="nav ul">
+          <li><a class="nav__menu nav__menu--active" href="./index.html">Agencja</a></li>
+          <li><a class="nav__menu" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="nav__menu" href="/#Kontakt">Kontakt</a></li>
+        </ul>
         <ul class="contact ul">
-          <li>
-            <div class="contact__mail"><svg class="contact__icon contact__icon--mail">
+          <li >
+            <div class="contact-mail"><svg class="contact__icon contact__icon--mail">
                 <use href="./image/icons.svg#icon-envelope-1"></use>
               </svg>
-              <a class="contact__link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
+              <a class="contact-link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
             </div>
           </li>
           <li>
-            <div class="contact__phone"><svg class="contact__icon contact__icon--phone">
+            <div class="contact-phone"><svg class="contact__icon contact__icon--phone">
                 <use href="./image/icons.svg#icon-smartphone"></use>
-              </svg><a class="contact__link" href="tel:+48111111111"> +48 111 111 111</a></div>
+              </svg><a class="contact-link" href="tel:+48111111111"> +48 111 111 111</a></div>
           </li>
         </ul>
       </div>
-
-    </section>
+          </section>
   </header>
   <main>
     <section class="section">
@@ -257,50 +254,5 @@
         </div>
       </div>
   </footer>
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button type="button" class="close-btn" data-modal-close></button>
-      <p class="modal__tittle">Zostaw swoje dane w formularzu poniżej</p>
-      <form name="order serwis" class="modal-form">
-        <label class="modal-form__label">
-          Imie
-          <svg class="modal-form__icon modal-form__icon1">
-            <use href="./image/icons.svg#icon-person-black-18dp-1"></use>
-          </svg>
-          <input class="modal-form__input" type="text" name="name">
-        </label>
-        <label class="modal-form__label">
-          Telefon
-          <svg class="modal-form__icon modal-form__icon2">
-            <use href="./image/icons.svg#icon-phone-black-18dp-1"></use>
-          </svg>
-          <input class="modal-form__input" type="tel" name="phone_number">
-        </label>
-        <label class="modal-form__label">
-          Email
-          <svg class="modal-form__icon modal-form__icon3">
-            <use href="./image/icons.svg#icon-email-black-18dp-1"></use>
-          </svg>
-          <input class="modal-form__input" type="email" name="email">
-        </label>
-        <label class="modal-form__label">
-          Komentarz
-          <textarea class="modal-form__comments" name="komentarz" placeholder="Wprowadź tekst"></textarea>
-        </label>
-      </form>
-      <label class="checkbox">
-        <p class="checkbox__text">Oświadczam iż akceptuję <span class="checkbox__text-span">Regulamin</span> i <span
-            class="checkbox__text-span">Politykę Prywatności</span></p>
-        <input class="checkbox__input" type="checkbox">
-        <svg class="checkbox__icon">
-          <use href="./image/icons.svg#icon-Vector-1"></use>
-        </svg><span class="chceckbox__checkmark">
-        </span>
-      </label>
-
-      <button type="submit" class=" button--main-page button--input">Wyślij</button>
-    </div>
-    <script src="./js/modal.js"></script>
-</body>
-
+ </body>
 </html>
