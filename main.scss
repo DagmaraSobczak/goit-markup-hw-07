@@ -1,7 +1,11 @@
+@import "./sass/utils/is hidden.scss";
 @import "./sass/utils/vars";
 
+
+@import "./sass/components/backdrop.scss";
 @import "./sass/components/baner.scss";
 @import "./sass/components/body.scss";
+@import "./sass/components/checkbox.scss";
 @import "./sass/components/contact-link.scss";
 @import "./sass/components/contact-mail.scss";
 @import "./sass/components/contact-phone.scss";
@@ -13,6 +17,8 @@
 @import "./sass/components/footer-position.scss";
 @import "./sass/components/header";
 @import "./sass/components/logo";
+@import "./sass/components/modal-form";
+@import "./sass/components/modal";
 @import "./sass/components/nav";
 @import "./sass/components/newsletter-form";
 @import "./sass/components/newsletter";
