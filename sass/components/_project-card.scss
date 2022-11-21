@@ -1,0 +1,22 @@
+.project-card {
+    margin: 0;
+  
+  
+  .project-card--border {
+    background: var(--white);
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+  }
+  }
+  .project-card__description {
+    display: block;
+    text-align: center;
+  }
+
+  .project-card__description-span {
+    color: #757575;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+  }
+  

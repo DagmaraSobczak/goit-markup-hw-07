@@ -24,3 +24,18 @@
             cursor: pointer;
       }
   }
+
+  .nav__menu--active {
+    position: relative;
+    
+     &::after {
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    width: 53px;
+    height: 4px;
+    background-color: var(--blue);
+    border-radius: 2px;
+  }
+  }

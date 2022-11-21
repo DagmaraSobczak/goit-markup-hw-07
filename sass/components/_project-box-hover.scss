@@ -1,4 +1,4 @@
-.box-hover:hover {
+.project-box-hover:hover {
     box-shadow: var(--box-shadow); 
     cursor: pointer;
     transition-property: box-shadow;
@@ -6,7 +6,7 @@
     transition-timing-function: var(--cubic-bezier);;
 }
     
-    .box-hover:hover .overlay {
+    .project-box-hover:hover .overlay {
         transform: translateY(0);
         transition: transform 250ms ease;
 
