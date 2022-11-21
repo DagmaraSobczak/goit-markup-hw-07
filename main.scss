@@ -5,6 +5,9 @@
 @import "./sass/components/backdrop.scss";
 @import "./sass/components/baner.scss";
 @import "./sass/components/body.scss";
+@import "./sass/components/box.scss";
+@import "./sass/components/box-hover.scss";
+@import "./sass/components/button--main-page";
 @import "./sass/components/checkbox.scss";
 @import "./sass/components/contact-link.scss";
 @import "./sass/components/contact-mail.scss";
@@ -17,6 +20,8 @@
 @import "./sass/components/footer-position.scss";
 @import "./sass/components/header";
 @import "./sass/components/logo";
+@import "./sass/components/menu-portfolio-button";
+@import "./sass/components/menu-portfolio-list";
 @import "./sass/components/modal-form";
 @import "./sass/components/modal";
 @import "./sass/components/nav";
@@ -26,6 +31,8 @@
 @import "./sass/components/our-strenghts";
 @import "./sass/components/our-team-card";
 @import "./sass/components/our-team";
+@import "./sass/components/overlay";
+@import "./sass/components/projcts-grid";
 @import "./sass/components/section-our-team";
 @import "./sass/components/section";
 @import "./sass/components/social-list";
