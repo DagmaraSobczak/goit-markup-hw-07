@@ -47,8 +47,7 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: var(--cubic-bezier);;
-  
-  
+   
       &:hover,
       &:focus-within{
       border-color: var(--modal-blue);
