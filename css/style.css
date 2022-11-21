@@ -54,21 +54,8 @@ figure figcaption {
 
 
 
-.footer-social__tittle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
-.newsletter_tiitle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 /*h3 {
   font-weight: 700;
   font-size: 14px;
@@ -195,12 +182,7 @@ img {
 
 
 
-.footer-social {
-  width: 206px;
-  height: 44px;
-  align-items: center;
-  color: var(--white);
-}
+
 .social-list__icon {
   width: 44px;
   height: 44px;
@@ -330,70 +312,12 @@ img {
   flex-direction: column;
 }
 
-.newsletter {
-  width: 570px;
-  /*margin-top: 77px;
-  margin-bottom: 89px; */
-  color: var(--white);
-  height: 86px;
-}
-/*.label-footer{
-position: absolute;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,25;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-z-index: 2;
-left: 0;
 
-}*/
 
-.newsletter-form__input {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: var(--footer);
-  left: 0;
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);;
-}
 
-/*.input-footer:hover{
-  border: #2196f3;
-}
-.input-footer:focus{
-border: #2196f3;
-}*/
 
-.newsletter-form {
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-  justify-content: space-between;
-}
 
-.newsletter-form--button {
-  line-height: 30px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
 
-.button--footer__icon {
-  background: var(--modal-blue);
-  width: 24px;
-  height: 24px;
-  fill: var(--white);
-  cursor: pointer;
-}
 
 .modal-form__label {
   font-family: "Roboto";
