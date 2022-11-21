@@ -63,23 +63,8 @@ figure figcaption {
   cursor: pointer;
 }
 
-.baner__title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-.our-strengths__tittle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
+
 .footer-social__tittle {
   font-weight: 700;
   font-size: 14px;
@@ -102,13 +87,7 @@ figure figcaption {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }*/
-.our-strenghts__description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--gray);
-}
+
 p {
   font-weight: 400;
   font-size: 14px;
@@ -133,33 +112,13 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-.our-team-card__team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-}
 
-.our-team-card__team-job {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8px;
-  letter-spacing: 0.03em;
-  color: var(--gray);
-}
 
-.container {
-  box-sizing: border-box;
-  max-width: 1200px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
-.section {
-  padding: 0 0 94px 0;
-  margin: 0 auto;
-}
+
+
+
+
 
 
 
@@ -180,25 +139,8 @@ h6,
 p,
 ul,
 li,
-.figure {
-  margin: 0;
-}
 
-.baner {
-  height: 600px;
-  background: var(--baner-grey);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  /*background: url(/image/Img\ \(9\)\ \(1\).jpg);*/
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../image/background.jpg);
-  background-size: 1600px 600px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 
 h2 {
   text-align: center;
@@ -206,14 +148,7 @@ h2 {
   display: block;
 }
 
-.our-team {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 .project__description {
   display: block;
   text-align: center;
@@ -240,26 +175,11 @@ img {
   width: 246px;
 }
 
-.what-we-do {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  gap: 30px;
-}
 
-.our-strengths {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  gap: 30px;
-  width: 1200px;
-  margin: 0 auto;
-}
 
-.section-our-team {
-  padding-top: 94px;
-  background-color: rgba(245, 244, 250, 1);
-}
+
+
+
 
 .menu-portfolio__list {
   display: flex;
@@ -279,20 +199,9 @@ img {
 
 
 
-.our-strengths__icon {
-  width: 70px;
-  height: 70px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
 
-.our-strengths__card {
-  background: var(--light-grey);
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
+
+
 
 .social-list {
   display: flex;
@@ -315,12 +224,7 @@ img {
   transition-timing-function: var(--cubic-bezier);;
 }
 
-.our-team-card {
-  background: var(--white);
- box-shadow:  var(--box-shadow);
-  border-radius: 0px 0px 4px 4px;
-  width: 270px;
-}
+
 
 
 .social-list__icon:hover {
@@ -402,11 +306,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);;
 }
-.figure--border {
-  background: var(--white);
-  border: 1px solid #eeeeee;
-  margin-bottom: 30px;
-}
+
 
 .social-list__icon--footer {
   margin-top: 20px;
@@ -425,32 +325,11 @@ img {
   cursor: pointer;
 }
 
-.what-we-do__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
-}
 
-.what-we-do__background {
-  width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
-  position: absolute;
-}
 
-.what-we-do__label {
-  position: absolute;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white);
-  padding: 27px 90px;
-}
+
+
+
 
 .nav__menu--active {
   position: relative;
