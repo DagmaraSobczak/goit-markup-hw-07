@@ -71,7 +71,7 @@
   
  
   
-  .checkbox input:checked ~ .&::after {
+  .checkbox input:checked ~ .checkmark::after {
     opacity: 1;
   }
   

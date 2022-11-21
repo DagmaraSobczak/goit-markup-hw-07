@@ -11,16 +11,16 @@
   text-decoration: none;
   margin-top: 24px;
   margin-bottom: 25px;
+}
 
-  &--header {
+logo--footer {
+  color: var(--white);
+  text-decoration: none;
+  }
+   
+  logo--header {
   color: var(--black);
   text-decoration: none;
   margin-top: 24px;
   margin-bottom: 25px;
   }
-
-  &--footer {
-  color: var(--white);
-  text-decoration: none;
-  }
-}

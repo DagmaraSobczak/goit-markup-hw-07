@@ -10,6 +10,7 @@
         transition-property: color, fill;
         transition-duration: 250ms;
         transition-timing-function: var(--cubic-bezier);
+        
         &:hover {
           color:var(--blue);
           cursor: pointer;
