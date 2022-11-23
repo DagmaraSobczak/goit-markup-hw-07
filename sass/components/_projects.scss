@@ -40,6 +40,14 @@
     overflow: hidden;
     width: 370px;
     height: 294px;
+
+    @mixin img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    @include img;
   }
   .project-box-hover:hover {
     box-shadow: var(--box-shadow); 

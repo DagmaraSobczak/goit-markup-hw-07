@@ -1,6 +1,8 @@
 .section-our-team {
   padding-top: 94px;
   background-color: rgba(245, 244, 250, 1);
+
+
 }
 .our-team {
     display: flex;
@@ -9,6 +11,7 @@
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
+  
   }
 
   .our-team-card {
@@ -17,6 +20,7 @@
     border-radius: 0px 0px 4px 4px;
     width: 270px;
     text-align: center;
+
   
     &__team-name {
     font-weight: 500;

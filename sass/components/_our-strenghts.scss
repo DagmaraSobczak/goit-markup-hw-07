@@ -12,35 +12,36 @@
     }
     
   @include ul;
+
+    &__card {
+      background: var(--light-grey);
+      border-radius: 4px;
+      margin-bottom: 30px;
+    }
+
+    &__icon {
+      width: 70px;
+      height: 70px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+  &__tittle {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+  &__description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: var(--gray);
+    } 
+
+
  }
-    .our-strengths__card {
-    background: var(--light-grey);
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-
-  .our-strengths__icon {
-    width: 70px;
-    height: 70px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-  .our-strengths__tittle {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-
-  .our-strengths__description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--gray);
-  } 
-
-
