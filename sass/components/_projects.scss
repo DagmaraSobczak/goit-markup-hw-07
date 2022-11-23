@@ -4,6 +4,13 @@
     flex-wrap: wrap;
     justify-content: space-between; 
     flex-basis: calc((100% - 60px) / 3);
+
+    @mixin ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+  @include ul;
   }
   .project-card {
     margin: 0;

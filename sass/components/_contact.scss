@@ -3,6 +3,13 @@
     flex-direction: row;
     justify-content: space-around;
     width: 321px;
+
+    @mixin ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+  @include ul;
   }
   .contact-mail {
     margin-top: 32px;

@@ -20,7 +20,13 @@
         flex-direction: column;
         gap: 9px;
         width: 246px;
-      
+        
+        @mixin ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+      @include ul;
     
       &__item {
         color: var(--white);

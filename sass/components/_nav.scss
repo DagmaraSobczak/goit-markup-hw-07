@@ -9,6 +9,13 @@
     margin-bottom: 32px;
     margin-left: 93px;
 
+    @mixin ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+    @include ul;
+
     &__menu {
         font-size: 14px;
         letter-spacing: 0.02em;

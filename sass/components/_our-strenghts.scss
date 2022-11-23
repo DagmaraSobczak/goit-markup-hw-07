@@ -5,6 +5,13 @@
     gap: 30px;
     width: 1200px;
     margin: 0 auto;
+
+    @mixin ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+  @include ul;
  }
     .our-strengths__card {
     background: var(--light-grey);

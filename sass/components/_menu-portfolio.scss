@@ -4,6 +4,13 @@
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
+
+    @mixin ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+  @include ul;
   }
   
 .menu-portfolio-button {
