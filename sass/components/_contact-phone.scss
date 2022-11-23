@@ -26,14 +26,14 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: var(--cubic-bezier);;
-  }
   
   
-  .contact__icon--phone {
+  
+  &--phone {
     width: 10px;
     height: 16px;
   }
-
+}
   .contact__link {
     font-size: 14px;
     letter-spacing: 0.02em;

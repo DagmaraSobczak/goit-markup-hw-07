@@ -3,9 +3,9 @@
     flex-direction: column;
     gap: 9px;
     width: 246px;
-  }
+  
 
-  .footer-contact-list__item {
+  &__item {
     color: var(--white);
     padding-top: 20px;
     display: flex;
@@ -13,3 +13,4 @@
     letter-spacing: 0.03em;
     font-size: 14px;
   }  
+}

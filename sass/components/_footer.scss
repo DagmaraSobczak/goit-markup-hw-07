@@ -6,4 +6,11 @@
     align-content: space-between;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
+
+     }
+     .footer-position {
+      display: flex;
+      justify-content: space-between;
+      width: 1200px;
+      gap: 70px;
+    }

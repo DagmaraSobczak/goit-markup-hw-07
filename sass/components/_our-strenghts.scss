@@ -5,15 +5,14 @@
     gap: 30px;
     width: 1200px;
     margin: 0 auto;
-  }
-
-  .our-strengths__card {
+ 
+  &__card {
     background: var(--light-grey);
     border-radius: 4px;
     margin-bottom: 30px;
   }
 
-  .our-strengths__icon {
+  &__icon {
     width: 70px;
     height: 70px;
     margin-top: 20px;
@@ -21,7 +20,7 @@
     margin-right: 100px;
     margin-left: 100px;
   }
-  .our-strengths__tittle {
+  &__tittle {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -29,10 +28,12 @@
     text-transform: uppercase;
   }
 
-  .our-strenghts__description {
+  &__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--gray);
-  }
+  } 
+
+}

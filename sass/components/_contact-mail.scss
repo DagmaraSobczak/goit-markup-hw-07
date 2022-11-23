@@ -27,8 +27,9 @@
         transition-property: fill;
         transition-duration: 250ms;
         transition-timing-function: var(--cubic-bezier);;
-      }
-     .contact__icon--mail {
+      
+     &--mail {
         width: 16px;
         height: 12px;
       }
+}

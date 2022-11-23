@@ -12,8 +12,8 @@
     background-size: 1600px 600px;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  .baner__title {
+  
+  &__title {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -24,3 +24,4 @@
     color: var(--white);
   }
 
+}
